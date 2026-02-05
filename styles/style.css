@@ -5,9 +5,7 @@ body {
 
     display: flex;
     justify-content: center;
-    /* align-items: stretch; */
 
-    background-color: #0f7605;
     font-family: sans-serif;
 }
 
