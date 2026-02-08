@@ -1,25 +1,48 @@
-/* main body containing all elements */
-body {
-    margin: 0;
-    min-height: 50em; /*ensures the min height is constant*/
-
-    display: flex;
-    justify-content: center;
-
-    font-family: sans-serif;
-}
-
-/* Foreground page*/
-.pageForeground {
-    background-color: #ffffff;
-    color: #000000; /*text colour*/
-
-    width: 900px; /*ensures the minimum width is the size of paper*/
-    /* min-height: 100vh; */ 
-    padding: 20px;
-}
-
+/*This is the website logo*/
 .imageLogo{
     width: 60px;
     height: 50px;
 }
+
+body{
+    padding: 5%;
+}
+
+/* Header elements -------------------------*/
+header{ /*Top of page including flag and navbar*/
+    background-color: rgb(146, 157, 41);
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#navigation_section{
+    background-color: rgb(130, 97, 156);
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.navigation_element{
+    margin: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#image_home_logo_section{
+    background-color: rgb(130, 97, 156);
+}
+/* Header elements end ------------------------*/
+
+main{/*main content page*/
+    background-color: rgb(41, 157, 109);
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    background-color: rgb(41, 89, 157);
+    padding: 10px;
+}
+
+
