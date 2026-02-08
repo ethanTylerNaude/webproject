@@ -5,8 +5,12 @@
 }
 
 body{
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
+
+
 
 /* Header elements -------------------------*/
 header{ /*Top of page including flag and navbar*/
@@ -20,9 +24,11 @@ header{ /*Top of page including flag and navbar*/
     padding: 10px;
     border: 1px solid black;
     margin-top: 5px;
+    max-width: 20em;
 }
 
 .navigation_element{
+    background-color: rgb(41, 157, 149);
     margin: 10px;
     text-decoration: none;
     border: 1px solid black;
@@ -34,15 +40,26 @@ header{ /*Top of page including flag and navbar*/
 }
 /* Header elements end ------------------------*/
 
+
+
+/* Main content ------------------------*/
 main{/*main content page*/
     background-color: rgb(41, 157, 109);
     padding: 10px;
     border-bottom: 1px solid black;
 }
 
+.paragraph_content{
+    background-color: rgb(116, 118, 11);
+}
+/* Main content end ------------------------*/
+
+
+
 footer{
     background-color: rgb(41, 89, 157);
     padding: 10px;
 }
+
 
 
