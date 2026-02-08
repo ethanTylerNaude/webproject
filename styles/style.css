@@ -5,22 +5,24 @@
 }
 
 body{
-    padding-left: 5%;
-    padding-right: 5%;
-    
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
 
 /* Header elements -------------------------*/
 header{ /*Top of page including flag and navbar*/
-    background-color: rgb(146, 157, 41);
+    background-color: rgb(146, 157, 41);/* colour visualize*/
     padding: 10px;
     border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 #navigation_section{
-    background-color: rgb(130, 97, 156);
+    background-color: rgb(130, 97, 156);/* colour visualize*/
     padding: 10px;
     border: 1px solid black;
     margin-top: 5px;
@@ -28,7 +30,7 @@ header{ /*Top of page including flag and navbar*/
 }
 
 .navigation_element{
-    background-color: rgb(41, 157, 149);
+    background-color: rgb(41, 157, 149);/* colour visualize*/
     margin: 10px;
     text-decoration: none;
     border: 1px solid black;
@@ -36,7 +38,7 @@ header{ /*Top of page including flag and navbar*/
 }
 
 #image_home_logo_section{
-    background-color: rgb(130, 97, 156);
+    background-color: rgb(130, 97, 156);/* colour visualize*/
 }
 /* Header elements end ------------------------*/
 
@@ -44,21 +46,28 @@ header{ /*Top of page including flag and navbar*/
 
 /* Main content ------------------------*/
 main{/*main content page*/
-    background-color: rgb(41, 157, 109);
     padding: 10px;
-    border-bottom: 1px solid black;
 }
 
 .paragraph_content{
-    background-color: rgb(116, 118, 11);
+    background-color: rgb(116, 118, 11);/* colour visualize*/
 }
+
+article{
+    background-color: rgb(191, 178, 0);/* colour visualize*/
+    padding: 1em;
+    border: 1px solid black;
+}
+
 /* Main content end ------------------------*/
 
 
-
 footer{
-    background-color: rgb(41, 89, 157);
+    background-color: rgb(41, 89, 157);/* colour visualize*/
     padding: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 
