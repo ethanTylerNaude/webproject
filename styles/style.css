@@ -18,7 +18,8 @@ body{
 
 /* Header elements -------------------------*/
 header{ /*Top of page including flag and navbar*/
-    background-color: rgb(146, 157, 41);/* colour visualize*/
+    /* background-color: rgb(146, 157, 41); */
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
@@ -26,13 +27,15 @@ header{ /*Top of page including flag and navbar*/
 }
 
 #navigation_section{
-    background-color: rgb(170, 142, 192);/* colour visualize*/
+    /* background-color: rgb(170, 142, 192); */
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin-top: 5px;
 }
 
 nav{
-    background-color: rgb(192, 188, 142);/* colour visualize*/
+    /* background-color: rgb(192, 188, 142); */
+    background-color: rgb(255, 255, 255);
     border: 1px solid grey;
     min-width: 10em;
     display: flex;
@@ -40,7 +43,8 @@ nav{
 }
 
 nav a{
-    background-color: rgb(41, 157, 149);/* colour visualize*/
+    /* background-color: rgb(41, 157, 149); */
+    background-color: #e9e2d0a3;
     margin: 10px;
     text-decoration: none;
     border: 1px solid grey;
@@ -48,7 +52,7 @@ nav a{
 }
 
 #image_home_logo_section{
-    background-color: rgb(130, 97, 156);/* colour visualize*/
+    background-color: rgb(255, 255, 255);
 }
 /* Header elements end ------------------------*/
 
@@ -61,18 +65,20 @@ main{/*main content page*/
 }
 
 .paragraph_content{
-    background-color: #e9e2d0;/* colour visualize*/
+    background-color: #e9e2d0;
 }
 
 article{
-    background-color: rgb(191, 178, 0);/* colour visualize*/
+    /* background-color: rgb(191, 178, 0); */
+    background-color: rgb(255, 255, 255);
     padding: 1em;
     border: 1px solid grey;
     flex: 3;
 }
 
 aside{
-    background-color: rgb(191, 178, 0);/* colour visualize*/
+    /* background-color: rgb(191, 178, 0); */
+    background-color: rgb(255, 255, 255);
     padding: 1em;
     border: 1px solid grey;
     flex: 1;
@@ -86,6 +92,9 @@ table, th, td{
     text-align: center;
 }
 
+figure{
+    background-color: #e9e2d0;
+}
 
 /*table=end------------------------------------*/
 
@@ -94,7 +103,8 @@ table, th, td{
 
 footer{
     /*#e9e2d0*/
-    background-color: rgb(41, 89, 157);/* colour visualize*/
+    /* background-color: rgb(41, 89, 157); */
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-top: 1px solid grey;
     border-left: 1px solid grey;
