@@ -78,6 +78,17 @@ aside{
     flex: 1;
 }
 
+/*table=------------------------------------*/
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse; /*Ensures each table element uses the same border.*/
+    padding: 2px;
+    text-align: center;
+}
+
+
+/*table=end------------------------------------*/
+
 /* Main content end ------------------------*/
 
 
