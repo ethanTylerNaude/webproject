@@ -13,7 +13,10 @@ body{
     height: 50px;
 }
 
-
+/*addition*/
+img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
 
 
 /* Header elements -------------------------*/
@@ -119,5 +122,13 @@ footer{
 
 /* Contact content end ------------------------*/
 
-/* video */
-
+/*list IDs*/
+.listPartOne{
+    list-style-type: disc;
+}
+.listPartTwo{
+    list-style-type: square;
+}
+.listPartThree{
+    list-style-type: decimal;
+}
